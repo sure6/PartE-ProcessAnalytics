@@ -1,0 +1,14 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/service_analytics
+    username: root
+    password: admin
+server:
+  port: 8088
+
+#logging:
+#  level:
+#    root: debug
+
